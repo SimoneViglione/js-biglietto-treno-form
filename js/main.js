@@ -20,7 +20,7 @@ genera.addEventListener('click',
 			if (fasciaEta == "minorenne") {
 				prezzoBiglietto = prezzo - prezzo * 20 / 100;
 			} else if (fasciaEta == "maggiorenne") {
-				prezzo = prezzoBiglietto;
+				prezzoBiglietto = prezzo;
 			} else if (fasciaEta == "over65") {
 				prezzoBiglietto = prezzo - prezzo * 40 / 100;
 			}
